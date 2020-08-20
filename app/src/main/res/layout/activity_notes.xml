@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotesActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tv_dateNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/tv_dateNotes"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_noteContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_below="@+id/linearLayout_textView"
+        android:layout_marginTop="20dp"
+        android:importantForAutofill="no"
+        android:hint="@string/notesHint"
+        android:minLines="30"
+        android:maxLines="45"
+        android:scrollbars="vertical"/>
+</RelativeLayout>

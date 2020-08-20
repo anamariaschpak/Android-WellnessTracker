@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.App.Aqua" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/aquaColorPrimary</item>
+        <item name="colorPrimaryDark">@color/aquaColorPrimaryDark</item>
+        <item name="colorAccent">@color/aquaColorAccent</item>
+        <item name="android:textColor">@color/aquaPrimaryText</item>
+        <item name="buttonNormalColor">@color/aquaButtonNormal</item>
+        <item name="buttonHighlightColor">@color/aquaButtonHighlight</item>
+        <item name="buttonTextColor">@color/aquaButtonText</item>
+    </style>
+
+    <style name="spinnerDropdownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

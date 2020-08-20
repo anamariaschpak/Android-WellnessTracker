@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="aquaColorPrimary">#FFC0CB</color>
+    <color name="aquaColorPrimaryDark">#008080</color>
+    <color name="aquaColorAccent">#AFEEEE</color>
+    <color name="aquaPrimaryText">#008080</color>
+    <color name="aquaButtonNormal">#48D1CC</color>
+    <color name="aquaButtonHighlight">#E0FFFF</color>
+    <color name="aquaButtonText">#FFFFFF</color>
+</resources>
